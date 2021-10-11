@@ -41,4 +41,6 @@ If the snake collides with either the wall, or the edge of the window or with it
 ---
 🔗LINK TO THE VIDEO
 
+https://drive.google.com/file/d/1yILQDL_jz22CC9p6QZwWlrge3i2EvFlN/view?usp=sharing
+
 ---
