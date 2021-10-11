@@ -130,7 +130,8 @@ design=[design1,design2,design3,design4,design5,design6,design7,design8]
 designNum=random.randint(0,7)
 
 if designNum==2:
-    state='fourth'
+    state='-infinite'
+    change='-infinite'
 
 wall=design[designNum]
 
@@ -372,10 +373,10 @@ while running:
             headX-=speed*math.cos(math.atan(slope))
             headY-=speed*math.sin(math.atan(slope))
         if state=='+infinite':
-            headY+=speed
+            headY-=speed
             headX=headX
         if state=='-infinite':
-            headY-=speed
+            headY+=speed
             headX=headX
         
         #Movement of the snake
