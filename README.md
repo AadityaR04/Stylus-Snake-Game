@@ -9,6 +9,8 @@ This Stylus Snake game project is an OpenCV and Pygame Python implementation. Th
 
 ## 1. Detecting HSV values of the Stylus
 
+![HSV](https://user-images.githubusercontent.com/83112916/136769878-c2ff327f-020c-4eec-b549-d42a42e1899d.gif)
+
 Firstly the program detects the HSV values of the color of the stylus used by the user. This is done in the following steps:
 * The user has to align the center of the stlyus to the red dot in the square region and capture by pressing 'Q'.
 * On capturing, a small 10x10 region around the center is captured.
@@ -25,6 +27,8 @@ Using the HSV values found, we use it to detect the stylus therefore tracking th
 * Using the contours to find the centroid.
 
 ## 3. Playing the Game
+
+![gameplay](https://user-images.githubusercontent.com/83112916/136769346-a2f2f500-9774-46db-a540-21584483030e.gif)
 
 The game is made using pygame. Using the centroid, we can now track the dynamic motion of the stylus and thus of the snake.
 
