@@ -130,7 +130,7 @@ design=[design1,design2,design3,design4,design5,design6,design7,design8]
 designNum=random.randint(0,7)
 
 if designNum==2:
-    state='down'
+    state='fourth'
 
 wall=design[designNum]
 
