@@ -351,9 +351,9 @@ while running:
         elif state=='fourth' and change=='second' and angle<1.5:
             state=state
             slope=slope
-        elif state=='infinte' and change=='-infinite':
+        elif state=='infinite' and change=='-infinite':
             state=state
-        elif state=='-infinte' and change=='infinite':
+        elif state=='-infinite' and change=='infinite':
             state=state
         else:
             state=change
